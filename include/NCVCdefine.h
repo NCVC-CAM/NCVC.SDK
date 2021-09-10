@@ -195,7 +195,8 @@ typedef	struct	tagNCARGV {
 /* DXF‚ÌµÌÞ¼Þª¸ÄÀ²Ìß‚ð•\‚·—ñ‹“ */
 enum	ENDXFTYPE {
 	DXFPOINTDATA = 0, DXFLINEDATA = 1, DXFCIRCLEDATA = 2, DXFARCDATA = 3,
-	DXFELLIPSEDATA = 4, DXFPOLYDATA = 5, DXFTEXTDATA = 6
+	DXFELLIPSEDATA = 4, DXFPOLYDATA = 5, DXFSPLINEDATA = 6,
+	DXFTEXTDATA = 7
 };
 
 /* ------------------------
